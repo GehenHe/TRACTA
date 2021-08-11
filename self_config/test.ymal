@@ -1,0 +1,40 @@
+TEST:
+## 检测相关参数
+  detector_name: coco-res101
+  min_detection_height: 60
+  min_confidence: 0.8
+  nms_max_overlap: 0.75
+
+ ## 单摄像头追踪相关参数
+  tracker_list: [1,2,3]
+  tracker_max_iou_distance: 0.7
+  tracker_max_age: 50
+  tracker_n_init: 10
+  tracker_max_age: 50
+  nn_budget: 100
+  gating_thresh: 5
+  tracker_max_iou_distance: 0.7
+  nn_matching_threshold: 0.8
+  time_since_update = 1
+
+## 多摄像头匹配相关参数
+  search_length: 50
+  vote_method: 'revert-gaussian'
+  dist_length: 21
+  max_length: 200
+
+## 显示相关参数
+  top_length: 500
+  convert_method: [350,350,2]
+  revert: True
+
+## 基本信息
+  resize_ratio: 0.5
+  image_width: 1280
+  image_height: 720
+  out_area: [540,-inf,inf,-90]
+  place_region: [-250,-120,600,324]
+  cameras: ('rtsp://admin:admin@192.168.1.111:554/cam/realmonitor?channel=1&subtype=0','rtsp://admin:admin@192.168.1.112:554/cam/realmonitor?channel=1&subtype=0')
+  camera_wait_time: 0.2
+  height_list: [0,150,155,160,165,170,175,180,185,190,195,200]
+

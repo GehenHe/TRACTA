@@ -1,5 +1,5 @@
 # TRACTA
-code for “Multi-Target Multi-Camera Tracking by Tracklet-to-Target Assignment”
+Code for “Multi-Target Multi-Camera Tracking by Tracklet-to-Target Assignment”
 
 Reference
 > He, Y., Wei, X., Hong, X., Shi, W., & Gong, Y. (2020). Multi-target multi-camera tracking by tracklet-to-target assignment. IEEE Transactions on Image Processing, 29, 5191-5205.

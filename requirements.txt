@@ -37,7 +37,7 @@ scikit-image==0.10.1
 scikit-learn==0.19.1
 scipy==0.17.0
 tensorboard
-tensorflow-gpu==1.7.0
+tensorflow-gpu==2.7.2
 termcolor==1.1.0
 urllib3==1.22
 Werkzeug==0.14.1
